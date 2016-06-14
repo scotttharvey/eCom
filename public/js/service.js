@@ -1,5 +1,5 @@
 angular.module("app").service("service", function("$http"){
-  return {
+
 
     items: function(item){
       return $http({
@@ -7,7 +7,7 @@ angular.module("app").service("service", function("$http"){
     url: "/api/products",
     data: item
   })
-},
+
 
 }
 })
